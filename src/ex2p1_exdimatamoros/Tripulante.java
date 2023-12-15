@@ -25,7 +25,7 @@ public class Tripulante {
         this.habilidadTecnica = habilidadTecnica;
     }
     
-      public String getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
@@ -48,5 +48,34 @@ public class Tripulante {
     public void setPlaneta(String planeta) {
         this.planeta = planeta;
     }
+
+    public int getHabilidadAtaque() {
+        return habilidadAtaque;
+    }
+
+    public void setHabilidadAtaque(int habilidadAtaque) {
+        this.habilidadAtaque = habilidadAtaque;
+    }
+
+    public int getHabilidadDefensa() {
+        return habilidadDefensa;
+    }
+
+    public void setHabilidadDefensa(int habilidadDefensa) {
+        this.habilidadDefensa = habilidadDefensa;
+    }
+
+    public int getHabilidadTecnica() {
+        return habilidadTecnica;
+    }
+
+    public void setHabilidadTecnica(int habilidadTecnica) {
+        this.habilidadTecnica = habilidadTecnica;
+    }
     
+    @Override
+     public String toString() {
+        return "Tripulante{" + "nombre=" + nombre + ", especie=" + especie + ", planeta=" + planeta + ", habilidadAtaque=" + habilidadAtaque + ", habilidadDefensa=" + habilidadDefensa + ", habilidadTecnica=" + habilidadTecnica + '}';
+    }
+     
 }
